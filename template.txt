@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt 
+import numpy as np 
+from scipy.integrate import odeint 
+import sode_utils
+
+def SD(x,t, args): 
+TO_REPLACE
+    return TO_RETURN 
+
+
+
+# INIT
+
+TIME_HORIZON
+INIT_VALUES
+
+# SIM
+# result = odeint(SD, x, t, args = (None, ))
+RUN_SIM
+
+# PLOT 
+
+sode_utils.simple_plot(result, t)
